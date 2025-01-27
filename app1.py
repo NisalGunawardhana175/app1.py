@@ -89,6 +89,8 @@ else:
         .header-title {
             display: flex;
             align-items: center;
+            flex-direction: column;
+            margin-bottom: 20px;
         }
         .header-title img {
             width: 200px;  
@@ -97,9 +99,10 @@ else:
         }
         .header-title h1 {
             margin: 0;
-            font-size: 40px;
+            font-size: 24px;
             color: #333;
             padding-top: 10px;
+            text-align: center;
         }
         .pillar-card {
             background-color: #f9f9f9;
@@ -110,7 +113,15 @@ else:
             font-size: 20px;
             font-weight: bold;
             margin-bottom: 10px;
-            height: 150px;  
+            height: auto;  
+        }
+        @media (max-width: 600px) {
+            .header-title h1 {
+                font-size: 20px;
+            }
+            .pillar-card {
+                font-size: 16px;
+            }
         }
     </style>
     <div class="header-title">
