@@ -125,7 +125,7 @@ else:
         }
     </style>
     <div class="header-title">
-        <img src="https://brandeps.com/logo-download/C/CEAT-logo-vector-01.svg" alt="CEAT Logo">
+        <img src="https://uxwing.com/wp-content/themes/uxwing/download/banking-finance/dashboard-monitoring-icon.png" alt="CEAT Logo">
         <h1>Dealer Performance Monitoring App</h1>
     </div>
     """, unsafe_allow_html=True)
